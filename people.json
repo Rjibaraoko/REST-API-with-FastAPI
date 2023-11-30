@@ -1,0 +1,51 @@
+{
+"people": [
+{
+    "id": 1,
+    "name": "Abeu",
+    "gender": "Male"
+  }, {
+    "id": 2,
+    "name": "Kevan",
+    "gender": "Male"
+  }, {
+    "id": 3,
+    "name": "Myrwyn",
+    "gender": "Male"
+  }, {
+    "id": 4,
+    "name": "Tony",
+    "gender": "Female"
+  }, {
+    "id": 5,
+    "name": "Indira",
+    "gender": "Female"
+  }, {
+    "id": 6,
+    "name": "Percival",
+    "gender": "Male"
+  }, {
+    "id": 7,
+    "name": "Selby",
+    "gender": "Male"
+  }, {
+    "id": 8,
+    "name": "Ced",
+    "gender": "Male"
+  }, {
+    "id": 9,
+    "name": "Rickie",
+    "gender": "Male"
+  }, {
+    "id": 10,
+    "name": "Tiff",
+    "gender": "Female"
+  },
+  {
+    "id": 11,
+    "name": "Mike",
+    "age":25,
+    "gender": "Male"
+}
+    ]
+}
