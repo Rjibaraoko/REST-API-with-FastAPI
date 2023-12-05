@@ -1,1 +1,74 @@
-[{"id": 1, "name": "Abeu", "age": 25, "gender": "Male"}, {"id": 2, "name": "Kevan", "age": 55, "gender": "Male"}, {"id": 3, "name": "Myrwyn", "age": 45, "gender": "Male"}, {"id": 4, "name": "Tony", "age": 29, "gender": "Female"}, {"id": 5, "name": "Indira", "age": 65, "gender": "Female"}, {"id": 6, "name": "Percival", "age": 54, "gender": "Male"}, {"id": 7, "name": "Selby", "age": 17, "gender": "Male"}, {"id": 8, "name": "Ced", "age": 24, "gender": "Male"}, {"id": 9, "name": "Rickie", "age": 31, "gender": "Male"}, {"id": 10, "name": "Tiff", "age": 38, "gender": "Female"}, {"id": 11, "name": "Mike", "age": 25, "gender": "Male"}, {"id": 12, "name": "Jason", "age": 34, "gender": "Non-Binarie"}]
+[
+    {
+        "id": 1,
+        "name": "Abeu",
+        "age": 25,
+        "gender": "Male"
+    },
+    {
+        "id": 2,
+        "name": "Kevan",
+        "age": 55,
+        "gender": "Male"
+    },
+    {
+        "id": 3,
+        "name": "Myrwyn",
+        "age": 45,
+        "gender": "Male"
+    },
+    {
+        "id": 4,
+        "name": "Tony",
+        "age": 29,
+        "gender": "Female"
+    },
+    {
+        "id": 5,
+        "name": "Indira",
+        "age": 65,
+        "gender": "Female"
+    },
+    {
+        "id": 6,
+        "name": "Percival",
+        "age": 54,
+        "gender": "Male"
+    },
+    {
+        "id": 7,
+        "name": "Selby",
+        "age": 17,
+        "gender": "Male"
+    },
+    {
+        "id": 8,
+        "name": "Ced",
+        "age": 24,
+        "gender": "Male"
+    },
+    {
+        "id": 9,
+        "name": "Rickie",
+        "age": 31,
+        "gender": "Male"
+    },
+    {
+        "id": 10,
+        "name": "Tiff",
+        "age": 38,
+        "gender": "Female"
+    },
+    {
+        "id": 11,
+        "name": "Mike",
+        "age": 25,
+        "gender": "Male"
+    },
+    {
+        "id": 12,
+        "name": "Jason",
+        "age": 34,
+        "gender": "Non-Binarie"
+    }
+]
