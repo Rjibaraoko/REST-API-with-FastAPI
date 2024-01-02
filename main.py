@@ -25,7 +25,8 @@ with open ('people.json','r') as f:
 def get_person(p_id: int):
     person = [p for p in people if p['id'] == p_id]
     return person[0] if len(person) > 0 else {None}"""
-    
+
+#searches person by id    
 @app.get('/person/{p_id}', status_code=200)    
 def get_person(p_id: int):
     """line 33: It searches for all the people in the "people" list that have the same id as introduced as parameter """
@@ -34,6 +35,7 @@ def get_person(p_id: int):
     return person[0] if person else None
 
 
+#searches user by age and name
 @app.get("/search", status_code=200)
 def search_person(age: Optional[int] = Query(None, title="Age", description="The age to filter for"),
                   name: Optional[str] = Query(None, title="Name", description="The name to filter for")):
@@ -54,7 +56,7 @@ def search_person(age: Optional[int] = Query(None, title="Age", description="The
             combined = [p for p in people1 if p in people2]
             return combined
 
-
+#Function with a post request that will add a new person to the list db
 @app.post("/addPerson", status_code=201)
 def add_person(person: Person):
     p_id = max(p['id'] for p in people) + 1
@@ -72,6 +74,7 @@ def add_person(person: Person):
         
     return new_person
 
+#Changes the basic information of the user
 @app.put('/changePerson', status_code=204)
 def change_person(person: Person):
     new_person = {
@@ -90,7 +93,7 @@ def change_person(person: Person):
         return new_person
     else:
         return HTTPException(status_code=404, detail=f"Person with id {person.id} does not exist")
-
+#Function that removes a selected user. If the user doesn't exist we throw a exception error prompt
 @app.delete('/deletePerson/{p_id}', status_code=204)
 def delete_person(p_id: int = Path(..., title="Id", description="The id of the person to delete")):
     person = [p for p in people if p['id'] == p_id]
